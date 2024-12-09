@@ -1,28 +1,52 @@
-#FINANCIAL RISK DETECTION
-_**Course Code - CSL2010
-Mentor - Dr. Avinash Sharma**_
+# **Financial Risk Detection**  
+**Course Code**: CSL2010  
+**Mentor**: Dr. Avinash Sharma  
 
-*DESCRIPTION* - 
-This project aims to build a machine learning-based Financial Risk Assessment system to classify individuals or entities into different risk categories (e.g., low, medium, high). The project involved extensive exploratory data analysis (EDA) to understand the dataset and uncover key patterns, followed by preprocessing steps to clean and transform the data for optimal model performance.
-The system leverages various machine learning algorithms, including Logistic Regression, Support Vector Classifier, Decision Trees, Random Forest, and XGBoost, to predict financial risk based on historical financial data. The model also identifies key risk factors using feature importance analysis, providing valuable insights for financial institutions.
+---
 
-*DEPLOYMENT* -
-Follow the instructions below to set up and deploy the project locally:
+## **Description**  
+This project aims to build a machine learning-based **Financial Risk Assessment System** to classify individuals or entities into different risk categories (e.g., **low**, **medium**, **high**).  
 
-1. Set Up a Folder in VS Code
-Create a new folder named Deployment in VS Code where 'app.py', financial_risk_assessment.csv', and 'Project_Code_final.py' is saved.
+The workflow includes:  
+- Extensive **Exploratory Data Analysis (EDA)** to uncover key patterns and understand the dataset.  
+- **Preprocessing** steps to clean and transform the data for optimal model performance.  
 
-2. Run the Project Code
-In the folder, run the file Project_code.py to ensure that all necessary dependencies and models are set up correctly.
+### **Key Highlights**  
+- Utilizes machine learning algorithms such as:  
+  - Logistic Regression  
+  - Support Vector Classifier (SVC)  
+  - Decision Trees  
+  - Random Forest  
+  - XGBoost  
 
-3. Run the Application
-After running the project code, run the app.py file to start the web application.
+- Provides **feature importance analysis** to identify critical risk factors, delivering actionable insights for financial institutions.  
 
-4. Open the Folder on Your Computer
-Open the folder where the project files are located (outside of VS Code, directly on your computer or laptop).
+---
 
-5. Open the Terminal in the Folder
-Navigate to the folder location in the file explorer, and then open the terminal in that same folder.
+## **Deployment**  
 
-6. Run the Streamlit Application
-In the terminal, type the following command - "streamlit run app.py"
+Follow the instructions below to set up and deploy the project locally:  
+
+### **1. Set Up a Folder in VS Code**  
+- Create a new folder named `Deployment` in VS Code.  
+- Save the following files inside the folder:  
+  - `app_final.py`  
+  - `financial_risk_assessment.csv`  
+  - `Project_Code_final.py`  
+
+### **2. Run the Project Code**  
+- In the `Deployment` folder, run the file `Project_Code_final.py` to set up necessary dependencies and models.
+
+### **3. Run the Application**  
+- After successfully running the project code, execute the file `app_final.py` to launch the web application.
+  
+### **4(a). Open the Folder on Your Computer**  
+- Navigate to the folder location on your computer (outside of VS Code).
+OR
+### **4(b). Open the Terminal in the Folder**  
+- Open the terminal in the same folder where the project files are stored.
+
+### **5. Run the Streamlit Application**  
+- Type the following command in the terminal:  
+  ```bash
+  streamlit run app_final.py
